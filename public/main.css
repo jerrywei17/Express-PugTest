@@ -1,0 +1,50 @@
+.container {
+	display: flex;
+	flex-flow: row wrap;	
+}
+
+.container >* {
+	
+}
+.npc {		
+	
+	width: 100%;
+	height: 30px;
+	text-align: center;
+	line-height: 30px;
+	min-height: min-content;
+	margin: 1px;
+	background-color: #EEEEEE;
+}
+
+.header {	
+	width: 100%;
+	height: 10%;
+	background-color: #111111;
+	overflow:scroll;
+}
+.main {		
+	margin: 1px 0px 1px 0px;
+	width: 85%;
+	min-height: 300px;	
+	height: 80%;
+	background-color: #111111;
+}
+.list {		
+	margin: 1px 0px 1px 0px;
+	display: flex;
+	flex-flow: row wrap;
+	width: 15%;
+	height: 80%;
+	
+	background-color: #111111;	
+	overflow-y: scroll;
+	overflow-x: hidden;
+}
+
+.footer {	
+	width: 100%;
+	height: 10%;
+
+	background-color: #111111;	
+}			
